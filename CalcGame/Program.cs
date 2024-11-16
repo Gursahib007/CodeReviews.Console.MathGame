@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Data;
-using System.Diagnostics;
 using System.Threading;
 
 
@@ -98,7 +97,7 @@ public static class GameMenu
 public static class GamePlayer
 {
     static List<Transaction> transactionHistory = new List<Transaction>();
-    private static int points = 0;
+    private static int points;
     
     public static int Choose()
     {
